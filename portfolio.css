@@ -6,6 +6,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
 .navbar{
     background-color: black;
     display: flex;
@@ -77,9 +83,9 @@
 
 .container{
     border: 1px solid white;
-    background-color: #d1dae8;
+    /* background-color: #d1dae8; */
     background-color: #d3e1f5;
-    height: 680px;
+    height: 700px;
 }
 
 .myBox{
@@ -93,6 +99,7 @@
 
 .myBox>p{
     color: blue;
+    /* margin-top: 180px; */
     margin-bottom: 5px;
     font-size: 18px;
 }
@@ -135,9 +142,10 @@ hr{
     transition-property: all;
     transition-duration: 0.25s;
     transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    transition-delay: 0s; */
-    /* /* transition: transform 2s;  */
+    transition-delay: 0s; 
+    transition: transform 2s;  */
 }
+
 
 @keyframes moveDownAnimation {
     0% {
@@ -156,6 +164,7 @@ hr{
     border: 1px solid black;
     background-color: black;
     color: white;
+    height: 600px;
 }
 
 .about{
@@ -178,7 +187,7 @@ hr{
     text-decoration: underline;
     color: #5240fe;
     font-size: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 } 
 
 .about_text>p{
@@ -201,3 +210,52 @@ hr{
 
 /* About section done */
 /* ///////////////////////////////////////////////////////////////////////// */
+
+.skills{
+    border: 1px solid whitesmoke;
+    height: 800px;
+    background-color: #d3e1f5;
+}
+
+.skills>div{
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 80px;
+    width: 80%;
+}
+
+.skills>div>h1{
+    color: #5240fe;
+    text-decoration: underline;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.skills_grid{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    row-gap: 60px;
+    column-gap: 125px;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,180px);
+}
+
+.skills_grid>div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 10px;
+    transition: transform .5s;
+}
+
+.skills_grid>div:hover{
+    transform: scale(1.2);
+}
+
+.skill_img{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
