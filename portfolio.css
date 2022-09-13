@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -20,22 +20,66 @@
 .part1_navbar{
     color: aliceblue;
     margin-left: 40px;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.part1_navbar>p{
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Ms Madi', cursive;
+}
+
+.part1_navbar>p:hover{
+    background-color: #FFFFFF44;
+    cursor: pointer;
+    color: yellow;
+    transform: scale(1.1);
 }
 
 .Part2_navbar{
     display: flex;
 }
 
-.Part2_navbar>p{
-    margin-right: 40px;
+.nav_item{
+    color: inherit;
+    text-decoration: none;
 }
 
+
+.Part2_navbar>p{
+    margin-right: 40px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.Part2_navbar>p:hover{
+    background-color: #FFFFFF44;
+    cursor: pointer;
+    color: bisque;
+    transform: scale(1.1);
+}
+
+#resume{
+    border: 2px solid rgb(0, 0, 255);
+    color: rgb(0, 0, 255);
+    border-radius: 10px;
+}
+
+#resume:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* navbar done */
+/* /////////////////////////////////////////////////////////////////////////////////// */
+
+
 .container{
-    border: 1px solid red;
+    border: 1px solid white;
     background-color: #d1dae8;
-    height: 800px;
-    
+    background-color: #d3e1f5;
+    height: 680px;
 }
 
 .myBox{
@@ -53,12 +97,107 @@
     font-size: 18px;
 }
 
-.myBox>hr{
-    margin: 30px 0 30px 0;
-    border: 2px solid blueviolet;
+hr{
+    /* width: 35vw; */
+    height: 2px;
+    background-color: blue;
+    border: none;
+    margin: 15px 0 20px 0;
+    /* animation: fadeInAnimation 3s ease; */
 }
 
 .myBox>h1{
     font-size: 40px;
 }
 
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.purpleArrows {
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: moveDownAnimation 3s ease;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    /* animation-name: moveDownAnimation;
+    transition: all .25s cubic-bezier(.25,.46,.45,.94) 0s;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition-delay: 0s; */
+    /* /* transition: transform 2s;  */
+}
+
+@keyframes moveDownAnimation {
+    0% {
+        margin-bottom: 100vh;
+    }
+    
+    100% {
+        margin-bottom: 0;
+    }
+}
+
+/* section1 done */
+/* /////////////////////////////////////////////////////////////////////////////////// */
+
+#About{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.about{
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_text{
+    /* border: 1px solid teal; */
+    width: 55%;
+    height: 400px;
+} 
+
+.about_text>h1{
+    text-decoration: underline;
+    color: #5240fe;
+    font-size: 60px;
+    margin-bottom: 10px;
+} 
+
+.about_text>p{
+   font-size: 18px;
+   color: rgb(197, 162, 162);
+}
+
+.myImage{
+    /* border: 1px solid green; */
+    width: 40%;
+    height: 400px;
+}  
+
+.Brand_logo{
+    border-radius: 50%;
+    border: 5px solid rgb(208, 4, 4);
+    box-shadow: red 0 20px 30px -10px;
+    margin-left: 60px;
+}
+
+/* About section done */
+/* ///////////////////////////////////////////////////////////////////////// */
