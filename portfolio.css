@@ -86,7 +86,7 @@ header{
     border: 1px solid white;
     /* background-color: #d1dae8; */
     background-color: #d3e1f5;
-    height: 700px;
+    height: 670px;
 }
 
 .myBox{
@@ -404,12 +404,12 @@ hr{
 .linkedin{
     display: flex;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .linkedin>a>p{
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 35px;
 }
 
 .linkedin>img{
@@ -430,3 +430,54 @@ hr{
     text-decoration: none;
 }
 
+/* Contact Section Done */
+/* ///////////////////////////////////////////////////////////////////////// */
+
+footer{
+    border: 1px solid black;
+    background-color: black;
+    /* height: 500px; */
+}
+
+.social_media_icons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.left_hr{
+    margin-right: 20px;
+}
+
+.right_hr{
+    margin-left: 20px;
+}
+
+.hr{
+    width: 35vw;
+    height: 2px;
+    background-color: #5240fe;
+    border: none;
+    margin: 20px auto;
+}
+
+.linkedin2{
+    margin-right: 20px;
+    transition: transform 1s;
+}
+
+.github2{
+    margin-left: 20px;
+    transition: transform 1s;
+}
+
+.linkedin2:hover,.github2:hover{
+    transform: scale(1.2);
+}
+
+footer>p{
+    color: wheat;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
