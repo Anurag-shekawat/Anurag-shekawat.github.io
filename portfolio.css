@@ -33,13 +33,14 @@ header{
     padding: 7px;
     border-radius: 5px;
     font-family: 'Ms Madi', cursive;
+    transition: transform 2s;
 }
 
 .part1_navbar>p:hover{
     background-color: #FFFFFF44;
     cursor: pointer;
     color: yellow;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .Part2_navbar{
@@ -260,3 +261,172 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Skills Section Done */
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.project{
+    border: 1px solid black;
+    /* height: 600px; */
+    background-color: rgb(28, 27, 27);
+    color: whitesmoke;
+}
+
+.project>div{
+    /* border: 1px solid red; */
+    /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    /* height: 450px; */
+}
+
+.project>div>h1{
+    color: #5240fe;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.project>div>div{
+    /* box-shadow: #5240fe 0px 0px 0px 3px; */
+    /* border-radius: 15px; */
+    margin: auto;
+    margin-top: 50px;
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.project>div>div>div:first-child{
+    width: 55%;
+    /* border: 1px solid red; */
+}
+
+.project>div>div>div:last-child{
+    width: 43%;
+}
+
+.project>div>div>div:last-child>h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.tech_stack{
+    margin-top: 10px;
+}
+
+.tech_stack+ul>li{
+    margin-left: 17px;
+    margin-top: 7px;
+}
+
+.best_buy_image{
+    border-radius: 15px;
+    transition: transform 1s;
+}
+
+.best_buy_image:hover{
+    transform: scale(0.9);
+}
+
+.fontawesome{
+    font-size: 28px;
+    margin-top: 15px;
+    margin-left: 5px;
+    transition: transform 1s;
+}
+
+.fontawesome:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.fa-chrome{
+    margin-left: 8px;
+}
+
+.project_link>a{
+    color: inherit;
+}
+
+#project2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+/* Projects Section Done */
+/* ///////////////////////////////////////////////////////////////////////// */
+
+#Contact{
+    border: 1px solid wheat;
+    background-color: #d3e1f5;
+    /* height: 600px; */
+}
+
+.contact{
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 100px;
+    /* height: 80%; */
+    width: 80%;
+    
+}
+
+.contact>h1{
+    color: #5240fe;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.contact>p{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.email{
+    display: flex;
+    margin-top: 15px;
+}
+
+.email>a>p{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.email>img{
+    color:#5240fe;
+    transition: transform 1s;
+}
+
+.linkedin{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.linkedin>a>p{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.linkedin>img{
+    margin-left: 15px;
+    transition: transform 1s;
+}
+
+.linkedin>img:hover{
+    transform: scale(1.2);
+}
+
+.email>img:hover{
+    transform: scale(1.2);
+}
+
+.linkedin>a,.email>a{
+    color: rgb(42, 40, 40);
+    text-decoration: none;
+}
+
