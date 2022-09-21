@@ -1,226 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/af655f73fe.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="images/my_logo.jpg" type="image/icon type">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/af655f73fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="images/my_logo.jpg" type="image/icon type" />
+  </head>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <!-- <img src="images/Anurag-designstyle-summer-m.png" alt="logo" class="logo"> -->
-                <h1 class="logo">Anurag</h1>
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#tech-stack">Skills</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#contact">Contract</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="my-header">
-                <div class="header-text">
-                    <p>Hey! This is</p>
-                    <h1><span>Anurag Shekhawat </span> <br>Java Backend Developer</h1>
-                </div>
-                <div class="my-resume">
-                    <a class="resume" href="images/Anurag_Shekhawat_Resume.pdf" download><h1>Resume</h1></a>
-                </div>
-            </div>
-            
+      <div class="container">
+        <nav>
+          <!-- <img src="images/Anurag-designstyle-summer-m.png" alt="logo" class="logo"> -->
+          <h1 class="logo">Anurag</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tech-stack">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="my-header">
+          <div class="header-text">
+            <p>Hey! This is</p>
+            <h1><span>Anurag Shekhawat </span> <br />Java Backend Developer</h1>
+          </div>
+          <div class="my-resume">
+            <a class="resume" href="images/Anurag_Shekhawat_Resume.pdf" download
+              ><h1>Resume</h1></a
+            >
+          </div>
         </div>
-        
+      </div>
     </div>
-<!-- -------------About------------- -->
+    <!-- -------------About------------- -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/MyPic-removebg-preview.jpg" alt="">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p class="about_intro">Hello! My name is Anurag Shekhawat and I am a Bootcamp graduate from Masai School, Bengaluru. I am a highly passionate Backend developer who loves, creating APIs, and working with databases. I am also extremely interested in creating elegant solutions, more specifically on System Design and High performaning solutions.</p>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/MyPic-removebg-preview.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about_intro">
+              Hello! My name is Anurag Shekhawat and I am a Bootcamp graduate
+              from Masai School, Bengaluru. I am a highly passionate Backend
+              developer who loves, creating APIs, and working with databases. I
+              am also extremely interested in creating elegant solutions, more
+              specifically on System Design and High performaning solutions.
+            </p>
 
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('tech_skills')">Tech Skills</p>
-                        <p class="tab-links" onclick="opentab('soft_skills')">Soft Skills</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="tech_skills">
-                        <ul>
-                            <li><span>Back-End Developement</span><br>Java | Spring Boot | My SQL</li>
-                            <li><span>Front-End Developement</span><br>HTML | CSS | JavaScript</li>
-                            <li><span>Data Structures and Algorithms</span></li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="soft_skills">
-                        <ul>
-                            <li><span>Teamwork</span></li>
-                            <li><span>Problem solving</span></li>
-                            <li><span>Time Management</span></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('tech_skills')">
+                Tech Skills
+              </p>
+              <p class="tab-links" onclick="opentab('soft_skills')">
+                Soft Skills
+              </p>
             </div>
+            <div class="tab-contents active-tab" id="tech_skills">
+              <ul>
+                <li>
+                  <span>Back-End Developement</span><br />Java | Spring Boot |
+                  My SQL
+                </li>
+                <li>
+                  <span>Front-End Developement</span><br />HTML | CSS |
+                  JavaScript
+                </li>
+                <li><span>Data Structures and Algorithms</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="soft_skills">
+              <ul>
+                <li><span>Teamwork</span></li>
+                <li><span>Problem solving</span></li>
+                <li><span>Time Management</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- --------------Tech Stack---------------- -->
     <div id="tech-stack">
-        <div class="container">
-            <h1 class="sub-title">Tech Stack</h1>
-            <div id="tech-stack-maindiv">
-                <div class="tech-stack-boxes">
-                    <div>
-                        <img class="skill_img" src="images/java-original.svg" alt="Java">
-                    </div>
-                    <div>
-                        <img class="skill_img" src="images/html5-original-wordmark.svg">
-                    </div>
-                    <div>
-                        <img class="skill_img" src="images/css3-original-wordmark.svg" alt="CSS" >
-                    </div>
-                      <div>
-                        <img class="skill_img" src="images/javascript-original.svg" alt="JS">
-                    </div>
-                    <div>
-                        <img class="skill_img" src="images/springio-icon.svg" alt="Spring">
-                    </div>
-                    <div>
-                        <img class="skill_img" src="images/mysql-original-wordmark.svg" alt="MySql">
-                    </div>
-                    <div>
-                        <img class="skill_img" src="images/git.png" alt="MySql">
-                    </div>
-                    <div>
-                        <img class="skill_img" src="images/dsa.png" alt="MySql">
-                    </div>
-                </div>
-            </div>            
+      <div class="container">
+        <h1 class="sub-title">Tech Stack</h1>
+        <div id="tech-stack-maindiv">
+          <div class="tech-stack-boxes">
+            <div>
+              <img
+                class="skill_img"
+                src="images/java-original.svg"
+                alt="Java"
+              />
+            </div>
+            <div>
+              <img class="skill_img" src="images/html5-original-wordmark.svg" />
+            </div>
+            <div>
+              <img
+                class="skill_img"
+                src="images/css3-original-wordmark.svg"
+                alt="CSS"
+              />
+            </div>
+            <div>
+              <img
+                class="skill_img"
+                src="images/javascript-original.svg"
+                alt="JS"
+              />
+            </div>
+            <div>
+              <img
+                class="skill_img"
+                src="images/springio-icon.svg"
+                alt="Spring"
+              />
+            </div>
+            <div>
+              <img
+                class="skill_img"
+                src="images/mysql-original-wordmark.svg"
+                alt="MySql"
+              />
+            </div>
+            <div>
+              <img class="skill_img" src="images/git.png" alt="MySql" />
+            </div>
+            <div>
+              <img class="skill_img" src="images/dsa.png" alt="MySql" />
+            </div>
+          </div>
         </div>
-
-        
+      </div>
     </div>
 
     <!-- -----------Projects--------------->
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">Projects</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/best_buy.PNG" alt="">
-                    <div class="layer">
-                        <h3>Best Buy Clone</h3>
-                        <p>Best Buy is a Ecommerse website for electronics appliances. It was a collaborative project built by the team of 5 members executed in 5 days.</p>
-                        <p>Tech stack:- HTML | CSS | JavaScript</p>
-                        <div class="link-icons">
-                            <a href="https://github.com/mayurisamanta/Best-Buyers" target="_blank"><i class="fa-brands fa-github fontawesome"></i></a>
-                            <a href="https://delightful-eclair-fa0b09.netlify.app/" target="_blank"><i class="fa-brands fa-chrome fontawesome"></i></a>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/bonsaiCash.PNG" alt="">
-                    <div class="layer">
-                        <h3>Hello Bonsai Clone</h3>
-                        <p>Hello Bonsai is an all-in-one freelance management app designed to help you with all aspects of your freelancing.</p>
-                        <p>Tech stack:- HTML | CSS | JavaScript</p>
-                        <div class="link-icons">
-                            <a href="https://github.com/Anurag-shekawat/frank-digestion-6511" target="_blank"><i class="fa-brands fa-github fontawesome"></i></a>
-                            <a href="https://splendid-pixie-3f0da5.netlify.app/" target="_blank"><i class="fa-brands fa-chrome fontawesome"></i></a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/best_buy.PNG" alt="" />
+            <div class="layer">
+              <h3>Best Buy Clone</h3>
+              <p>
+                Best Buy is a Ecommerse website for electronics appliances. It
+                was a collaborative project built by the team of 5 members
+                executed in 5 days.
+              </p>
+              <p>Tech stack:- HTML | CSS | JavaScript</p>
+              <div class="link-icons">
+                <a
+                  href="https://github.com/mayurisamanta/Best-Buyers"
+                  target="_blank"
+                  ><i class="fa-brands fa-github fontawesome"></i
+                ></a>
+                <a
+                  href="https://delightful-eclair-fa0b09.netlify.app/"
+                  target="_blank"
+                  ><i class="fa-brands fa-chrome fontawesome"></i
+                ></a>
+              </div>
             </div>
-        </div> 
+          </div>
+          <div class="work">
+            <img src="images/bonsaiCash.PNG" alt="" />
+            <div class="layer">
+              <h3>Hello Bonsai Clone</h3>
+              <p>
+                Hello Bonsai is an all-in-one freelance management app designed
+                to help you with all aspects of your freelancing.
+              </p>
+              <p>Tech stack:- HTML | CSS | JavaScript</p>
+              <div class="link-icons">
+                <a
+                  href="https://github.com/Anurag-shekawat/frank-digestion-6511"
+                  target="_blank"
+                  ><i class="fa-brands fa-github fontawesome"></i
+                ></a>
+                <a
+                  href="https://splendid-pixie-3f0da5.netlify.app/"
+                  target="_blank"
+                  ><i class="fa-brands fa-chrome fontawesome"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- ------------Contact---------------- -->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fas fa-paper-plane"></i> anuragshekhawat806@gmail.com</p>
-                    <p><i class="fas fa-phone-square-alt"></i> +91 8384089489</p>
-                    <div class="social-icons">
-                        <a href="https://github.com/Anurag-shekawat" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/anurag-shekhawat-a13481233/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button class="btn" type="submit">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fas fa-paper-plane"></i> anuragshekhawat806@gmail.com
+            </p>
+            <p><i class="fas fa-phone-square-alt"></i> +91 8384089489</p>
+            <div class="social-icons">
+              <a href="https://github.com/Anurag-shekawat" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/anurag-shekhawat-a13481233/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
             </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button class="btn" type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
-        <div class="copyright">
-            <p>Made with <i class="fas fa-heart"></i> by Anurag Shekhawat</p>
-        </div>
+      </div>
+      <div class="copyright">
+        <p>Made with <i class="fas fa-heart"></i> by Anurag Shekhawat</p>
+      </div>
     </div>
 
     <script>
+      let tablinks = document.getElementsByClassName("tab-links");
+      let tabcontents = document.getElementsByClassName("tab-contents");
 
-        let tablinks = document.getElementsByClassName("tab-links");
-        let tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
-
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
     </script>
 
     <script>
+      let sidemenu = document.getElementById("sidemenu");
 
-        let sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
 
-        function openmenu(){
-            sidemenu.style.right = "0";
-        }
-
-        function closemenu(){
-            sidemenu.style.right = "-200px";
-        }
-
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
 
- <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwBZyZxUx3KpV7akyYbaayR2josKuSscvFU1MFJJl722RhwPrvaPk95rV-RPfAMRoq5/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg");
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = "";
-            },5000);4
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwBZyZxUx3KpV7akyYbaayR2josKuSscvFU1MFJJl722RhwPrvaPk95rV-RPfAMRoq5/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            4;
             form.reset();
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-
-</body>
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
 </html>
