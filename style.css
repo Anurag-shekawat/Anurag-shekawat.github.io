@@ -423,6 +423,10 @@ nav .fas{
         cursor: pointer;
     }
 
+    .resume{
+        font-size: 15px;
+    }
+
     .sub-title{
         font-size: 40px;
     }
@@ -451,12 +455,25 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+
+    .layer h3{
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    .layer p{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    .layer .link-icons a{
+        font-size: 20px;
+    }
    
 }
 
 /* ----------for medium screens------ */
 
-@media all and (min-width: 425px) and (max-width: 768px){
+@media all and (min-width: 425px) and (max-width: 767px){
 
     nav .fas{
         display: block;
@@ -492,9 +509,26 @@ nav .fas{
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px){
+@media all and (min-width: 768px) and (max-width: 1023px){
     .contact-left>.sub-title{
         font-size: 40px;
+    }
+
+    .resume{
+        font-size: 15px;
+    } 
+
+    .layer h3{
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    .layer p{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    .layer .link-icons a{
+        font-size: 20px;
     }
 }
 
