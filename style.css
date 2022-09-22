@@ -530,6 +530,14 @@ nav .fas{
     .layer .link-icons a{
         font-size: 20px;
     }
+
+    .contact-left p {
+        font-size: 12px;
+    }
+
+    .contact-left p i{
+        font-size: 15px;
+    }
 }
 
 #msg{
