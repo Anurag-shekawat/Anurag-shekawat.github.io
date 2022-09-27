@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anurag Shekhawat</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <script
       src="https://kit.fontawesome.com/af655f73fe.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
+
+    <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+    
     <link rel="icon" href="images/my_logo.jpg" type="image/icon type" />
   </head>
   <body>
@@ -202,6 +210,17 @@
       </div>
     </div>
 
+    <!-- ------------------Github Contribution----------------- -->
+
+    <div id="github">
+      <div class="container git-container">
+        <h1 class="git-heading">Github Contribution</h1>
+        <div class="calendar">
+          Loading the data just for you.
+        </div>
+      </div>
+    </div>
+
     <!-- ------------Contact---------------- -->
     <div id="contact">
       <div class="container">
@@ -247,6 +266,12 @@
         <p>Made with <i class="fas fa-heart"></i> by Anurag Shekhawat</p>
       </div>
     </div>
+
+    <script>
+      GitHubCalendar(".calendar", "Anurag-shekawat");
+      // or enable responsive functionality
+      GitHubCalendar(".calendar", "Anurag-shekawat", { responsive: true });
+    </script>
 
     <script>
       let tablinks = document.getElementsByClassName("tab-links");
