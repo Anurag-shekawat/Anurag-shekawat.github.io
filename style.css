@@ -311,9 +311,11 @@ nav ul li a:hover::after{
     margin-bottom: 50px;
 }
 
-.calendar{
-    border: 1px solid green;
+#calen{
+    /* padding: 7px; */
+    border: none;
 }
+
 
 /* ------------------Contact----------- */
 
