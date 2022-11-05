@@ -7,23 +7,22 @@
     <title>Anurag Shekhawat</title>
     <link rel="stylesheet" href="style.css" />
     <link
-   rel="stylesheet"
-   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
     <script
       src="https://kit.fontawesome.com/af655f73fe.js"
-      crossorigin="anonymous">
-    </script>
+      crossorigin="anonymous"
+    ></script>
 
-    <script
-    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-    </script>
-    
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
     <link rel="icon" href="images/my_logo.jpg" type="image/icon type" />
   </head>
   <body>
     <div id="header">
       <div class="container">
-        <nav>
+        <nav id="navbar">
           <!-- <img src="images/Anurag-designstyle-summer-m.png" alt="logo" class="logo"> -->
           <h1 class="logo">Anurag</h1>
           <ul id="sidemenu">
@@ -32,20 +31,25 @@
             <li><a href="#tech-stack">Skills</a></li>
             <li><a href="#portfolio">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="https://drive.google.com/file/d/1uuO1_8aqfl3bp23uzOjcppcK-4b3LVGT/view?usp=sharing" target="_blank">Resume</a></li>
             <i class="fas fa-times" onclick="closemenu()"></i>
           </ul>
           <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
-        <div class="my-header">
-          <div class="header-text">
-            <p>Hey! This is</p>
-            <h1><span>Anurag Shekhawat </span> <br />Java Backend Developer</h1>
-          </div>
-          <div class="my-resume">
-            <a class="resume" href="images/Anurag_Shekhawat_Resume.pdf" download
-              ><h1>Resume</h1></a
-            >
-          </div>
+        
+      </div>
+    </div>
+
+    <div id="header_container" class="container">
+      <div class="my-header">
+        <div class="header-text">
+          <p>Hey! This is</p>
+          <h1><span>Anurag Shekhawat </span> <br />Java Backend Developer</h1>
+        </div>
+        <div class="my-resume">
+          <a class="resume" href="images/Anurag_Shekhawat_Resume.pdf" download
+            ><h1>Resume</h1></a
+          >
         </div>
       </div>
     </div>
@@ -206,6 +210,7 @@
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
@@ -215,11 +220,14 @@
     <div id="github">
       <div class="container git-container">
         <h1 class="git-heading">Github Contribution</h1>
-        <div class="calendar" id="calen">
-          Loading the data just for you.
-        </div>
+        <div class="calendar" id="calen">Loading the data just for you.</div>
       </div>
     </div>
+
+    <picture>
+      <source srcset = "https://github-readme-stats.vercel.app/api?username=Anurag-shekawat&show_icons=true" media = "(prefers-color-scheme: dark)"/>
+      <img class = w-100 src ="https://github-readme-stats.vercel.app/api?username=Anurag-shekawat&show_icons=true"/>
+    </picture>
 
     <!-- ------------Contact---------------- -->
     <div id="contact">
