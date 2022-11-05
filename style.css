@@ -267,7 +267,7 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0; 
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -281,7 +281,7 @@ nav ul li a:hover::after{
 
 .work:hover img{
     transform: scale(1.1);
-}
+} 
 
 .work:hover .layer{
     height: 100%;
