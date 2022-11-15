@@ -502,6 +502,10 @@ nav .fas{
     .layer .link-icons a{
         font-size: 20px;
     }
+
+    .work-list{
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
    
 }
 
@@ -542,7 +546,11 @@ nav .fas{
         flex-basis: 100%;
     }
 
-    /* .layer h3{
+    .work-list{
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
+
+    .layer h3{
         font-size: 13px;
         margin-bottom: 4px;
     }
@@ -554,7 +562,7 @@ nav .fas{
 
     .layer .link-icons a{
         font-size: 20px;
-    } */
+    }
 }
 
 @media all and (min-width: 769px) and (max-width: 1024px){
