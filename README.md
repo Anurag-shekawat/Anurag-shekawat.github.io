@@ -12,7 +12,7 @@ This is a personal portfolio website for recruiter to know about me and contact 
 - Vs code
 ## Overview of the site
 
-![Screenshort](![127 0 0 1_5501_index html](https://user-images.githubusercontent.com/88320962/201908263-258a5414-8bdd-413c-92dc-9388d5264166.png)
+![127 0 0 1_5501_index html](https://user-images.githubusercontent.com/88320962/201908263-258a5414-8bdd-413c-92dc-9388d5264166.png)
 ## Author
 
 > ### Anurag Shekhawat ([GitHub](https://github.com/Anurag-shekawat))
